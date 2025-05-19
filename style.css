@@ -1,8 +1,7 @@
 .MainBody {
     align-content: center;
     background: #000000;
-/*     background: radial-gradient(circle, rgba(0, 0, 0, 1) 25%, rgba(23, 25, 59, 1) 100%);
- */    margin: 0;
+    margin: 0;
     padding: 0;
     font-family: Akira;
     font-size: 25px;
@@ -45,7 +44,7 @@
 .Text {
     color: #7e81f0;
     text-align: center;
-    text-shadow: #000 3px 3px 3px ;
+    text-shadow: #000 0px 5px 3px ;
     position: relative;
     z-index: 1;
 }

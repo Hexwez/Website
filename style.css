@@ -1,8 +1,8 @@
 .MainBody {
     align-content: center;
     background: #000000;
-    background: radial-gradient(circle, rgba(0, 0, 0, 1) 25%, rgba(23, 25, 59, 1) 100%);
-    margin: 0;
+/*     background: radial-gradient(circle, rgba(0, 0, 0, 1) 25%, rgba(23, 25, 59, 1) 100%);
+ */    margin: 0;
     padding: 0;
     font-family: Akira;
     font-size: 25px;
@@ -22,6 +22,24 @@
     border-radius: 50%;
     width: 200px;
     height: 200px;
+    box-shadow: 0 0 20px rgba(126, 129, 240, 0.5);
+}
+
+@media (max-width: 600px) {
+    .ProfilePicture {
+        width: 150px;
+        height: 150px;
+    }
+    .MainBody {
+        font-size: 20px;
+    }
+    .Text {
+        font-size: 20px;
+    }
+    button {
+        font-size: 15px;
+        padding: 0.5rem 1.5rem;
+    }
 }
 
 .Text {
@@ -92,10 +110,10 @@ button:hover::before {
     background: #7e81f0;
 }
    
-/*canvas {
+canvas {
     background: #000;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 0;
-}*/
+}

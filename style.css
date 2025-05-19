@@ -12,8 +12,34 @@
     height: 100vh;
     flex-direction: column;
 }
-  
 
+/*h1 {
+    background: linear-gradient(
+        to right,
+        #9d00ff 25%,
+        #4d0aab 50%,
+        #5b0ac5 75%,
+        #7e81f0 100%
+    );
+    position: relative;
+    z-index: 1;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}*/
+  
 .ProfilePicture {
     position: relative;
     z-index: 2;
@@ -21,7 +47,7 @@
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    box-shadow: 0 0 20px rgba(126, 129, 240, 0.5);
+    box-shadow: 0 0 100px rgba(126, 129, 240, 0.5);
 }
 
 @media (max-width: 600px) {

@@ -72,7 +72,8 @@ button {
     font-size: 17px;
     border-radius: 500px;
     overflow: hidden;
-    background: black;
+    background: #00000000;
+    backdrop-filter: blur(2px);
     color: #7e81f0;
     transition: transform 0.5s, background 0.5s;
 }
@@ -102,7 +103,8 @@ button::after {
 
 button::before {
     content: "";
-    background: #000;
+    background: #00000000;
+    backdrop-filter: blur(2px);
     transition: background 0.5s;
 }
 
@@ -112,6 +114,7 @@ button:hover::before {
    
 canvas {
     background: #000;
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 25%, rgba(23, 25, 59, 1) 100%);
     position: absolute;
     top: 0;
     left: 0;
